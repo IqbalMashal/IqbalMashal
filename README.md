@@ -1,28 +1,8 @@
-<h1 align="center" style="font-size: 3em; font-weight: bold; margin: 20px 0;">
-  <span style="
-    background: linear-gradient(90deg, #6eadff, #7873f5, #6f42c1);
-    background-size: 300%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: gradientMove 3s ease infinite;
-    display: inline-block;
-  ">
-    Hi 👋, I'm Iqbal Mashal
-  </span>
+<h1 align="center">
+  <img src="https://em-content.zobj.net/source/microsoft/379/waving-hand_1f44b.png" width="30px">
+  Hi, I'm <span style="color: #34bbf5;">Iqbal Mashal</span>
 </h1>
-<style>
-  @keyframes gradientMove {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
-</style>
+
 
 <h3 align="center">A passionate software developer from Canada</h3>
 
