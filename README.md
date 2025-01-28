@@ -1,22 +1,25 @@
-<h1 align="center" style="position: relative; display: inline-block;">
+<h1 align="center" style="font-size: 3em; font-weight: bold; margin: 20px 0;">
   <span style="
-    animation: popUp 2s ease infinite;
+    background: linear-gradient(90deg, #6eadff, #7873f5, #6f42c1);
+    background-size: 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 3s ease infinite;
     display: inline-block;
-    font-size: 2.5em;
-    font-weight: bold;
-    color: #6f42c1;
-  ">Hi 👋, I'm Iqbal Mashal</span>
+  ">
+    Hi 👋, I'm Iqbal Mashal
+  </span>
 </h1>
 <style>
-  @keyframes popUp {
+  @keyframes gradientMove {
     0% {
-      transform: scale(1);
+      background-position: 0% 50%;
     }
     50% {
-      transform: scale(1.2);
+      background-position: 100% 50%;
     }
     100% {
-      transform: scale(1);
+      background-position: 0% 50%;
     }
   }
 </style>
@@ -30,10 +33,11 @@
 
 <div align="center">
   <img height="200" src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" />
+  <img height="200" src="https://user-images.githubusercontent.com/74038190/212750155-3ceddfbd-19d3-40a3-87af-8d329c8323c4.gif" />
 </div>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
+<h3 align="center">Languages and Tools:</h3>
+<p align="center">
   <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/>
   </a>
